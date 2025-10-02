@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <a href="home">
+      <img src="images/djmagshoplogo.jpg" alt="Logo DJ Mag" class="logo" />
+    </a>
+    <nav>
+      <ul class="menu-row">
+        <li><a href="/">Magazine</a></li>
+        <li><a href="/">Digital Magazine</a></li>
+        <li><a href="/">Subscriptions</a></li>
+        <li><a href="/">Books</a></li>
+        <li><a href="/">Merchandise</a></li>
+      </ul>
+
+      <ul class="menu-row second-row">
+        <li><a href="/">Gift Cards</a></li>
+        <li><a href="/">DJMag.com</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-buttons">
+      <a href="zoeken.html">
+        <img src="images/zoeken.png" alt="searching icon" />
+      </a>
+
+      <a href="user.html">
+        <img src="images/user.png" alt="user icon" />
+      </a>
+
+      <a href="cart.html">
+        <img src="images/mandje.png" alt="shopping cart icon" />
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <div class="product-detail">
+      <img src="images/shirtzwart.jpg" alt="Black Original Tee" />
+
+      <div class="product-info">
+        <h1>BLACK ORIGINAL TEE</h1>
+        <p class="price">€23,95</p>
+        <p class="tax-info">Tax included. Shipping calculated at checkout.</p>
+        <label for="size-select" class="size-label">Maat:</label>
+
+        <section class="shop-section">
+          <select id="size-select" class="size-select">
+            <option value="" disabled selected>S</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+          </select>
+
+          <button class="add-to-cart">Add to cart</button>
+          <a href="https://shop.app/">Buy with SHOP</a>
+          <a href="https://shop.app/">More payment options</a>
+
+          <p class="product-description">
+            The original DJ Mag Tee. A black heavyweight cotton T-Shirt with the iconic DJ Mag logo screen printed in red and white on chest.
+          </p>
+        </section>
+
+        <div class="extra-buttons">
+          <a href="https://www.facebook.com/?locale=nl_NL" class="image-button">
+            <img src="images/facebooklogo.png" alt="facebook logo" />
+            <span>Share</span>
+          </a>
+          <a href="https://x.com/" class="image-button">
+            <img src="images/twitterlogo.png" alt="twitter logo" />
+            <span>Tweet</span>
+          </a>
+        </div>
+
+        <div class="button-container">
+          <a href="index.html" class="back-button">← Back to merch</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/?locale=nl_NL">
+        <img src="images/facebookzwartwit.png" alt="facebook logo" />
+      </a>
+      <a href="https://x.com/">
+        <img src="images/twitterlogozwartwit.png" alt="twitter logo" class="twitterlogo" />
+      </a>
+      <a href="https://www.instagram.com/">
+        <img src="images/instagramzwartwit.png" alt="instagram logo" />
+      </a>
+      <a href="https://www.youtube.com/">
+        <img src="images/youtubezwartwit.png" alt="youtube logo" />
+      </a>
+    </div>
+
+    <div class="paymentmethods-footer">
+      <img src="images/paymentmethods.png" alt="logo's betalings instanties" class="paymentmethods" />
+    </div>
+
+    <p class="footertext">© 2025, DJ Mag Shop Powered by Shopify</p>
+  </footer>
+
+  <div class="cart-popup hidden">Product added to cart!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
